@@ -8,11 +8,16 @@ public class BotonActivar : MonoBehaviour
 {
     public UnityEvent evento;
 
-    private void OnTriggerEnter(Collider other)
+    [ContextMenu("Activar")]
+    public void Activar()
+    {
+        evento.Invoke();
+    }
+    public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("mano"))
         {
-            evento.Invoke();
+            Activar();
         }
 
     }
