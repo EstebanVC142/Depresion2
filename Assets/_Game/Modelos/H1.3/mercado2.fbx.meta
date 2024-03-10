@@ -1,0 +1,711 @@
+fileFormatVersion: 2
+guid: 4adcd3702b791b041942edb253836805
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A56454543333
+    second: {fileID: 2100000, guid: f518d24746a7ccb4085f7c35e3244cc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Apricot
+    second: {fileID: 2100000, guid: ea74cad7ea9b8f14ca6a9b0f4e4df090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Berries
+    second: {fileID: 2100000, guid: 6f98969296f20ad44a2bfd23dd0aa07c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BreadAndBreakfast
+    second: {fileID: 2100000, guid: 775de9a92a6d6b24e9e5d9a0843985cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CERVESA
+    second: {fileID: 2100000, guid: 2bb85706df473c54ca04dcee7f775c16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CREMA DE LECHE
+    second: {fileID: 2100000, guid: eba8ce84b22009f469e28db72d08b9b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frugetable
+    second: {fileID: 2100000, guid: 648c8c784d1831249a7ccd189b3b5eb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Image_21
+    second: {fileID: 2100000, guid: 54594c6b27d5c5442a2401ad3a2e94d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Image_51
+    second: {fileID: 2100000, guid: 2a6ac801b41331244af92951a834986c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Image_6
+    second: {fileID: 2100000, guid: 3690da02ec0a0ea48ba0a62eee1b40b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Image_66
+    second: {fileID: 2100000, guid: f344acd0c3ce5734295135100341edec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Image_69
+    second: {fileID: 2100000, guid: ec0c09e13b74dc54dafb5c545055a78b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Image_78
+    second: {fileID: 2100000, guid: 5dddd84d5b1762649821c8079c5c8859, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Image_81
+    second: {fileID: 2100000, guid: d45e082aee2a2dc45b3b560e8515b466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KOLA
+    second: {fileID: 2100000, guid: 4c277cef735306241b1cd71356db4f8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MADERA
+    second: {fileID: 2100000, guid: eacc42f5dcd92ee4fb5b636958f40110, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METAL
+    second: {fileID: 2100000, guid: a5cd7564a97f5f545b97e68cd70c0c02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MOSTAZA.png
+    second: {fileID: 2100000, guid: 54b0e229a8728a84195f61ca3b02501e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: 9f1f26d7696598440b5a62b2035d052d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: 3e6ff734dd1ef5b4296a470d5d50350c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.018
+    second: {fileID: 2100000, guid: 2d7d849d34e6eda438ea9f8f088f51a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.020
+    second: {fileID: 2100000, guid: cca1d36c63e132340977ce544139c285, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.021
+    second: {fileID: 2100000, guid: a2c30923db219744a91a4f977bee1748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.024
+    second: {fileID: 2100000, guid: 799c263e481c2c0488286df12c99df8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.025
+    second: {fileID: 2100000, guid: 685bbdc49edc2d24e9fcb6e3a9bdfd97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.027
+    second: {fileID: 2100000, guid: 3d62cdf4dd7212749adcb45ed9c56633, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.028
+    second: {fileID: 2100000, guid: f3005e473159fde488c7ecc6bf79c901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA11
+    second: {fileID: 2100000, guid: 91f0cbcc25d008a4f8e917d6f42e562d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA11.001
+    second: {fileID: 2100000, guid: d49e98ff2bb2d1444a6b9f5f46672aaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA22
+    second: {fileID: 2100000, guid: 53e88b051737c1445bf036669b92d6a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA22.001
+    second: {fileID: 2100000, guid: 57929fcbd2488a340a3ce26b0fc92b59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA22.002
+    second: {fileID: 2100000, guid: 53f719d0dda4bf442860d511557623b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA22.003
+    second: {fileID: 2100000, guid: 93534eec77c2fca48bbe0a66e8b1bcdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA22.004
+    second: {fileID: 2100000, guid: 84666b8984e988a45a2071d58e0db3b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA22.005
+    second: {fileID: 2100000, guid: 728e19cecebe3c942bdb3a82cc523d69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA22.006
+    second: {fileID: 2100000, guid: 3809623dcf87f124bba145ee4b1b6851, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33
+    second: {fileID: 2100000, guid: 64a982121717d114fbf07ecd3ea204c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33.001
+    second: {fileID: 2100000, guid: acbcc1c71d75e27449ec80a7c9b8d308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33.002
+    second: {fileID: 2100000, guid: 95c50bbcd20d94649b013eb7f0d37676, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33.003
+    second: {fileID: 2100000, guid: 575921d418c0da246988d1de133d7c69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33.004
+    second: {fileID: 2100000, guid: 29fb1be6212549f4bbbe6e4f11e0a6df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33.005
+    second: {fileID: 2100000, guid: 78d5db1f4d3cb06479b516aefcfb1249, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33.006
+    second: {fileID: 2100000, guid: 52e1405273093f84fbc9e45b3c5d7acd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33.007
+    second: {fileID: 2100000, guid: 90dc942cb5b6064498a0d5a5d0952d51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33.008
+    second: {fileID: 2100000, guid: 26870874fcf2abc47b11093f20cab9f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33.009
+    second: {fileID: 2100000, guid: 27d93f8c1a3c19e41bec18473a029d1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA44
+    second: {fileID: 2100000, guid: 548706098f6aa184aa87400c2c865eb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA44.001
+    second: {fileID: 2100000, guid: 136599faf608b8246845b9a627b4004e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA55
+    second: {fileID: 2100000, guid: f99f26a709003004c95038ef1a9d6468, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA55.001
+    second: {fileID: 2100000, guid: a35919c95e8731b4f808ab8523d7def6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA55.002
+    second: {fileID: 2100000, guid: d7c952bbe4c2057458ce5bf93a6e4078, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA55.003
+    second: {fileID: 2100000, guid: d524ec16e59dd51489366ac5f7a4403c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA55.004
+    second: {fileID: 2100000, guid: d0bc15033861c874085093781715554b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA55.png
+    second: {fileID: 2100000, guid: 1e11aa15e00c98f4ca494aea8ab7bcb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parasol.png
+    second: {fileID: 2100000, guid: 96337234462bc0e4ebcec44df71c6ee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Peach
+    second: {fileID: 2100000, guid: 4accd75acbd4a2f4c9537fd6a13321d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber
+    second: {fileID: 2100000, guid: 0dbb2b025dcebe642a7e1de44b722bad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SALSA DE TOMATE
+    second: {fileID: 2100000, guid: bba294e1deb31344fb3e85c57b4fbb73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SODA
+    second: {fileID: 2100000, guid: 5db49e82bee2bda4e9e51259b25907ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: breadShdr
+    second: {fileID: 2100000, guid: 6800166e13168b143a60928f3be2a122, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: canastabase
+    second: {fileID: 2100000, guid: a73291e05f77868469236c0909a7b1a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cereales
+    second: {fileID: 2100000, guid: 457d717daa84a584d89f06994588994e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chocolate
+    second: {fileID: 2100000, guid: 473f4d92bd2c21c4e8b9e71a6af6d2d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuadro1
+    second: {fileID: 2100000, guid: 4b43ae22a7ff91945b46db6e4979fcc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuadro2
+    second: {fileID: 2100000, guid: 64ecd5f933b376b4984d656ca64e78ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuadro3
+    second: {fileID: 2100000, guid: 464ab801b74c0dc4cbb74aab97578db9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuadro4.PNG
+    second: {fileID: 2100000, guid: 3ef930b715fb588448b3e7b86755e9b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuadro5
+    second: {fileID: 2100000, guid: e328c56621ae2814d99fd0e7f3bc6f40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuadro6
+    second: {fileID: 2100000, guid: 3b7317fb6aeabb24596495611d2be31f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuadro7
+    second: {fileID: 2100000, guid: c26df666351073a4abf26fe90b2b9a5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frutas
+    second: {fileID: 2100000, guid: cfdc4fb39c559ae42a81e2c6fb4c2019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ladrillo
+    second: {fileID: 2100000, guid: 36bbffdcfbb2a0d4e9d71de0e960a1d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: madera
+    second: {fileID: 2100000, guid: ac05022ad7002c949b254266f005ff6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 7f7eceb4ff9975e4b818ae9b6ffdf7e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: papas
+    second: {fileID: 2100000, guid: e6610f9ef86170c49951216d2c932e69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piso
+    second: {fileID: 2100000, guid: 862251ed88389f443bf98d4e2d818ff6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ventana
+    second: {fileID: 2100000, guid: 3bbb9892a73895d4a812ece8cd4f8861, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Apricot_Plum
+    second: {fileID: 2800000, guid: f62f922208483cb4c9dd44086407c81a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Berries
+    second: {fileID: 2800000, guid: fb6d1db06757fed48bf4905de6f0a437, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BreadAndBreakfast_diffuse
+    second: {fileID: 2800000, guid: e4e3bfc305da60a4db2bfd2fb9c26285, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CERVESA
+    second: {fileID: 2800000, guid: ff43527c1de519e4f9a35f1c5f4f9049, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CREMA DE LECHE
+    second: {fileID: 2800000, guid: 2d0c1074f58272148a190b6f12481dab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FruVegeTables_diffuse
+    second: {fileID: 2800000, guid: d4a7d9e6e8d6c51449008739fba87b78, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_21
+    second: {fileID: 2800000, guid: 87d9ecb3f4187d9489f4a9f08889ead9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_51
+    second: {fileID: 2800000, guid: 2a461632e731d1f45b1f7c2d904642fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_6
+    second: {fileID: 2800000, guid: eb4e1bd44b8d3eb47b9c3a97bb6e7b44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_66
+    second: {fileID: 2800000, guid: 8665b4bea3ac873408f32b3e2b87b063, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_69
+    second: {fileID: 2800000, guid: f6f88facad28aa84b8ff16d3645c7e37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_78
+    second: {fileID: 2800000, guid: 2c244e065c7429246b5e6ad765e6de01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_81
+    second: {fileID: 2800000, guid: aa8579284b2971545861730716558639, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KOLA
+    second: {fileID: 2800000, guid: d86dd09f38fe5f7419be00535a01b750, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MADERA
+    second: {fileID: 2800000, guid: 6b4c96ea795df7d49b561af24ca18f33, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: METAL
+    second: {fileID: 2800000, guid: 386cee45d3c73554dbe40a3500afbc76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MOSTAZA
+    second: {fileID: 2800000, guid: 3ac09872323aeb445b6ed0e32639c41e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA11
+    second: {fileID: 2800000, guid: 2109875d386ab594cb8c62697653fe0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA22
+    second: {fileID: 2800000, guid: 4b6c8ba0c1ebc074f8cba9abfa581783, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA33
+    second: {fileID: 2800000, guid: 905340331fb392c4a848901d88e7fc7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA44
+    second: {fileID: 2800000, guid: 6522164b267d20e4d9f7a239cdfad73c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NFO_FoodTexturespackA55
+    second: {fileID: 2800000, guid: 00af4f7280a1fa94888477ce443a769d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Parasol
+    second: {fileID: 2800000, guid: 8707ab937b8d62c4f9384c593eabca21, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Peach
+    second: {fileID: 2800000, guid: 004a16b1ba58bb4478db0bfaa36f005b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SALSA DE TOMATE
+    second: {fileID: 2800000, guid: adb70928e3a5bc744ab994d5e19aa76f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SODA
+    second: {fileID: 2800000, guid: 1838429d70301d640ad7b6c0c29b8703, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: canasta base
+    second: {fileID: 2800000, guid: f9079d989f56e99439b6cf6ce9769f69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ceapa
+    second: {fileID: 2800000, guid: 3cb2a6debdba38b4186b62c3a2d42ddc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cereales
+    second: {fileID: 2800000, guid: afec755eb7cad794892957da7bfba115, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chocolate
+    second: {fileID: 2800000, guid: 0302b0c9b0c0cc446875c586c4a46535, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cuadro1
+    second: {fileID: 2800000, guid: 28354eda18d96694b93b2621c0903e51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cuadro2
+    second: {fileID: 2800000, guid: 5158ef268c4036041818aa471cee90da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cuadro3
+    second: {fileID: 2800000, guid: 012365fe4389b3449a4c87efc826bc36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cuadro4
+    second: {fileID: 2800000, guid: 5b22c76c45fd00646b2775d129eab02a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cuadro5
+    second: {fileID: 2800000, guid: 01f25c595d7d7d54c8120d0b3af80efd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cuadro6
+    second: {fileID: 2800000, guid: 2e3f8afb021a6764bb8d5728e7b0f676, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cuadro7
+    second: {fileID: 2800000, guid: d73c8907213bd844eb51d05d185e1ccd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: frutas
+    second: {fileID: 2800000, guid: 2f8e228c5e658474b9642b9dcc75f205, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ladrillo
+    second: {fileID: 2800000, guid: 60968dbe470ae744f895e60fe81d0dd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: madera
+    second: {fileID: 2800000, guid: 074c9836a2dc9f844950368dcb102141, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mermelada
+    second: {fileID: 2800000, guid: cbd6a957e7fe2ac48a8c6fc589d4c32c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: papas
+    second: {fileID: 2800000, guid: 4bd4ec0a636c52a4581810e19cbaed9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: piso
+    second: {fileID: 2800000, guid: ce90a637129f219469590648e037e0b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ventana
+    second: {fileID: 2800000, guid: 6f1860832f6e79f42ac7d784ef7b83b0, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
