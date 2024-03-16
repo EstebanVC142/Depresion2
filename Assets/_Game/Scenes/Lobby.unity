@@ -232,6 +232,7 @@ GameObject:
   - component: {fileID: 82792049}
   - component: {fileID: 82792048}
   - component: {fileID: 82792047}
+  - component: {fileID: 82792051}
   m_Layer: 5
   m_Name: cnvEscen (0)
   m_TagString: Untagged
@@ -321,6 +322,25 @@ RectTransform:
   m_AnchoredPosition: {x: -0.893, y: 0.498}
   m_SizeDelta: {x: 40.3449, y: 44.2086}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &82792051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82792046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &174561894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,6 +1364,7 @@ GameObject:
   - component: {fileID: 664806076}
   - component: {fileID: 664806075}
   - component: {fileID: 664806074}
+  - component: {fileID: 664806078}
   m_Layer: 5
   m_Name: cnvEscen (2)
   m_TagString: Untagged
@@ -1433,6 +1454,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0.004999995, y: 0.498}
   m_SizeDelta: {x: 40.3449, y: 44.2086}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &664806078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664806073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &684136242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1583,6 +1623,7 @@ GameObject:
   - component: {fileID: 840460677}
   - component: {fileID: 840460676}
   - component: {fileID: 840460675}
+  - component: {fileID: 840460679}
   m_Layer: 5
   m_Name: cnvEscen (1)
   m_TagString: Untagged
@@ -1672,6 +1713,25 @@ RectTransform:
   m_AnchoredPosition: {x: -0.425, y: 0.498}
   m_SizeDelta: {x: 40.3449, y: 44.2086}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &840460679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840460674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &960583454
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,6 +2330,7 @@ GameObject:
   - component: {fileID: 998534668}
   - component: {fileID: 998534667}
   - component: {fileID: 998534666}
+  - component: {fileID: 998534670}
   m_Layer: 5
   m_Name: cnvEscen (4)
   m_TagString: Untagged
@@ -2359,6 +2420,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0.885, y: 0.498}
   m_SizeDelta: {x: 40.3449, y: 44.2086}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &998534670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998534665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &1062008703
 GameObject:
   m_ObjectHideFlags: 0
@@ -4261,6 +4341,7 @@ GameObject:
   - component: {fileID: 1901507920}
   - component: {fileID: 1901507919}
   - component: {fileID: 1901507918}
+  - component: {fileID: 1901507922}
   m_Layer: 5
   m_Name: cnvEscen (3)
   m_TagString: Untagged
@@ -4350,6 +4431,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0.438, y: 0.498}
   m_SizeDelta: {x: 40.3449, y: 44.2086}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1901507922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901507917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &1981826774
 GameObject:
   m_ObjectHideFlags: 0
