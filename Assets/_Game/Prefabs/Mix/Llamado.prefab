@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6604139656615593504}
   - component: {fileID: 2029274453975855119}
   - component: {fileID: 2029274453975855118}
+  - component: {fileID: 2166890561619446432}
   m_Layer: 0
   m_Name: Llamado
   m_TagString: Untagged
@@ -101,3 +102,16 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 0}
   render: {fileID: 2029274453975855119}
   fadeOnStart: 1
+--- !u!114 &2166890561619446432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3970355573906265414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3852f87e7a534144bbe4a6ce1a620b70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transicion: {fileID: 2029274453975855118}
