@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Game/Scenes/Lobby.unity
     guid: 84ac0afc1dab283478415342170c2fe2
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Game/Scenes/Habitacion1.1.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Game/Scenes/Habitacion1.2.unity
     guid: 7a57e1a24106896458c47ed59cb3c877
   - enabled: 1
