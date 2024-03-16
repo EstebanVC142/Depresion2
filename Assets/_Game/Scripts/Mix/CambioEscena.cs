@@ -14,4 +14,9 @@ public class CambioEscena : MonoBehaviour
 		}
 	}
 
+	public void Activar()
+	{
+		ControlEscena.singleton.GoToScene(escena);
+		this.enabled = false;
+	}
 }
