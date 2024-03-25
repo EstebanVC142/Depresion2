@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: chromakeyYoga
-  m_Shader: {fileID: -6465566751694194690, guid: 1e7b356df576e1d45a9145bb2c21b2ab,
+  m_Shader: {fileID: -6465566751694194690, guid: 19a7933862cab68468165207c41cb35f,
     type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
@@ -67,8 +67,8 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _fuzzines: 0.466
-    - _hueRange: 0.536
+    - _fuzzines: 0
+    - _hueRange: 0.505
     m_Colors:
     - _Color: {r: 0.21568623, g: 0.8745099, b: 0.29019606, a: 1}
     - _ColorPersona: {r: 0.9811321, g: 0.777578, b: 0, a: 1}
