@@ -36,8 +36,6 @@ public class NotasManager : MonoBehaviour
             {
                 Desactivar();
             }
-            print(audioFondo.clip.length - audioFondo.time);
-            print(activo);
             if ((audioFondo.clip.length - audioFondo.time) > 5 && activo)
             {
                 GameObject n = Instantiate(nota, referenciaNotas.position, referenciaNotas.rotation);
