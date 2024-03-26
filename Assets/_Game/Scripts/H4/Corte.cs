@@ -6,7 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class Corte : MonoBehaviour
 {
     public bool enMano;
-    XRGrabInteractable gameObjectInteractuable;
+    public XRGrabInteractable gameObjectInteractuable;
     public void ActivarXR(HoverEnterEventArgs a)
     {
         enMano = true;
@@ -24,10 +24,9 @@ public class Corte : MonoBehaviour
             print("separo");
             Rigidbody rb = gameObject.AddComponent<Rigidbody>();
             gameObjectInteractuable = gameObject.AddComponent<XRGrabInteractable>();
-            //gameObjectInteractuable.colliders.Add(GetComponent<MeshCollider>());
+            gameObjectInteractuable = gameObject.GetComponent<XRGrabInteractable>();
+            gameObjectInteractuable.colliders.Add(GetComponent<MeshCollider>());
             //rb.isKinematic = true;
-            gameObjectInteractuable.hoverEntered.AddListener(ActivarXR);
-            gameObjectInteractuable.hoverExited.AddListener(DesactivarXR);
             StartCoroutine(PosPoner());
 
             //Destroy(this);
@@ -37,6 +36,9 @@ public class Corte : MonoBehaviour
     IEnumerator PosPoner()
 	{
         yield return null;
+        gameObjectInteractuable = gameObject.GetComponent<XRGrabInteractable>();
+        gameObjectInteractuable.hoverEntered.AddListener(ActivarXR);
+        gameObjectInteractuable.hoverExited.AddListener(DesactivarXR);
         gameObjectInteractuable.colliders.Clear();
         MeshCollider c = GetComponent<MeshCollider>();
         MeshCollider c2 = new MeshCollider();
