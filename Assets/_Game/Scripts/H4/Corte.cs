@@ -24,18 +24,19 @@ public class Corte : MonoBehaviour
             print("separo");
             Rigidbody rb = gameObject.AddComponent<Rigidbody>();
             gameObjectInteractuable = gameObject.AddComponent<XRGrabInteractable>();
-            gameObjectInteractuable.colliders.Add(GetComponent<MeshCollider>());
+            //gameObjectInteractuable.colliders.Add(GetComponent<MeshCollider>());
             //rb.isKinematic = true;
             gameObjectInteractuable.hoverEntered.AddListener(ActivarXR);
             gameObjectInteractuable.hoverExited.AddListener(DesactivarXR);
-            Invoke("PosPoner", 0.5f);
-            
+            StartCoroutine(PosPoner());
+
             //Destroy(this);
         }
     }
 
-    void PosPoner()
+    IEnumerator PosPoner()
 	{
+        yield return null;
         gameObjectInteractuable.colliders.Clear();
         MeshCollider c = GetComponent<MeshCollider>();
         MeshCollider c2 = new MeshCollider();
