@@ -23,18 +23,33 @@ public class BotonNota : MonoBehaviour
 		transform.position = posInicial;
 	}
 
-	IEnumerator Animar()
-	{
-		yield return new WaitForSeconds(offset);
-		for (int i = 0; i < 30; i++)
-		{
-			float t = i / 29f;
-			transform.position = Vector3.LerpUnclamped(posInicial, posFinal, curva.Evaluate(t));
-			yield return new WaitForSeconds(1/30f);
-		}
-	}
+    IEnumerator Animar()
+    {
+        yield return new WaitForSeconds(offset);
+        for (int i = 0; i < 30; i++)
+        {
+            float t = i / 29f;
+            transform.position = Vector3.LerpUnclamped(posInicial, posFinal, curva.Evaluate(t));
+            yield return new WaitForSeconds(1 / 30f);
+        }
+    }
+    IEnumerator Desanimar()
+    {
+        yield return new WaitForSeconds(offset);
+        for (int i = 0; i < 30; i++)
+        {
+            float t = i / 29f;
+            transform.position = Vector3.LerpUnclamped(posInicial, posFinal, curva.Evaluate(1 - t));
+            yield return new WaitForSeconds(1 / 30f);
+        }
+    }
 
-	private void OnTriggerEnter(Collider other)
+    public void Ocultar()
+    {
+		StartCoroutine(Desanimar());
+    }
+
+    private void OnTriggerEnter(Collider other)
 	{
 		if (other.CompareTag("mano"))
 		{

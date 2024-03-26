@@ -305,7 +305,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e79ed9157b4994e41a8ded6cddc85b4d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2394465898315259249, guid: f602d6ab17a6b0d4c853dec6a5ad00fe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f602d6ab17a6b0d4c853dec6a5ad00fe, type: 3}
 --- !u!4 &77227478 stripped
 Transform:
@@ -511,73 +512,6 @@ Transform:
   m_Father: {fileID: 2025555010}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &216327917
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 216327918}
-  - component: {fileID: 216327919}
-  m_Layer: 0
-  m_Name: Video Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &216327918
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 216327917}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.090251215, y: 0.48830485, z: -0.044288944}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1683377566}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!328 &216327919
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 216327917}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c0a4d3974cc72ea459db420a9e2f7c4f, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 1c64fa136bc0310499be1bec85bb461e, type: 2}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
 --- !u!1 &238233571
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +693,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3854104c126f0ff4890552ef38cd43e5, type: 2}
+  - {fileID: 2100000, guid: 0dee014b0144065478d7ab383297ee6c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -797,7 +731,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278399909}
   m_LocalRotation: {x: -0, y: -0.70745903, z: -0, w: 0.70675445}
-  m_LocalPosition: {x: -1.164, y: 0.994, z: 0.13}
+  m_LocalPosition: {x: -1.164, y: 1.17, z: 0.13}
   m_LocalScale: {x: 2.6352, y: 2.6352, z: 2.6352}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1859,7 +1793,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408736308}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 502c9399530e1364cb875f9cc90804ac, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 68aec9315f7d9764d85f8f65015c874c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1414435228}
@@ -2478,7 +2412,7 @@ PrefabInstance:
     - target: {fileID: 2394465898315259250, guid: f602d6ab17a6b0d4c853dec6a5ad00fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.642
+      value: 1.589
       objectReference: {fileID: 0}
     - target: {fileID: 2394465898315259250, guid: f602d6ab17a6b0d4c853dec6a5ad00fe,
         type: 3}
@@ -2968,7 +2902,6 @@ Transform:
   m_Children:
   - {fileID: 524366775}
   - {fileID: 1782832899}
-  - {fileID: 216327918}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

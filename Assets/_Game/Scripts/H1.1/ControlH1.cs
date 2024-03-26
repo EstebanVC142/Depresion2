@@ -9,7 +9,17 @@ public class ControlH1 : MonoBehaviour
     public static ControlH1 singleton;
 	public int puntos;
 	public TextMeshProUGUI puntaje;
-	private void Awake()
+	public MeshRenderer partitura;
+	private Material materialNota;
+	public Texture[] partituras;
+	public int indice;
+	public int salto;
+
+    private void Start()
+    {
+		materialNota = partitura.material;
+    }
+    private void Awake()
 	{
 		if (singleton == null)
 		{
@@ -22,21 +32,22 @@ public class ControlH1 : MonoBehaviour
 	}
 	public void SumarPuntos()
 	{
-		puntos+=3;
-		NotasSprite.notasSprite.Sumar();
-		
+		puntos++;
+		NotasSprite.notasSprite.Sumar();		
+		ActualizarImagen();
 	}
 	public void RestarPuntos()
 	{
-		if (puntos > 0)
-		{
-			puntos--;
 
-		}
 	}
 	public void ActualizarPuntosTexto()
 	{
 		puntaje.text = "Puntos: " + puntos.ToString();
 	}
 
+	public void ActualizarImagen()
+	{
+		indice = Mathf.FloorToInt(Mathf.Clamp(puntos / salto, 0, partituras.Length - 1));
+		materialNota.mainTexture = partituras[indice];
+	}
 }
