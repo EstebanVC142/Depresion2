@@ -6557,27 +6557,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 979854360}
+    m_TransformParent: {fileID: 1579126256}
     m_Modifications:
     - target: {fileID: 2508125487495632740, guid: 3ff07dfb9e54ccd49aba3307ea52dcdd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2508125487495632740, guid: 3ff07dfb9e54ccd49aba3307ea52dcdd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.05
       objectReference: {fileID: 0}
     - target: {fileID: 2508125487495632740, guid: 3ff07dfb9e54ccd49aba3307ea52dcdd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.962
       objectReference: {fileID: 0}
     - target: {fileID: 2508125487495632740, guid: 3ff07dfb9e54ccd49aba3307ea52dcdd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.593
       objectReference: {fileID: 0}
     - target: {fileID: 2508125487495632740, guid: 3ff07dfb9e54ccd49aba3307ea52dcdd,
         type: 3}
@@ -6587,17 +6587,17 @@ PrefabInstance:
     - target: {fileID: 2508125487495632740, guid: 3ff07dfb9e54ccd49aba3307ea52dcdd,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2508125487495632740, guid: 3ff07dfb9e54ccd49aba3307ea52dcdd,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2508125487495632740, guid: 3ff07dfb9e54ccd49aba3307ea52dcdd,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2508125487495632740, guid: 3ff07dfb9e54ccd49aba3307ea52dcdd,
         type: 3}
@@ -6660,7 +6660,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 444124255}
-  - {fileID: 963717326}
   m_Father: {fileID: 626931935}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8222,6 +8221,7 @@ Transform:
   - {fileID: 1920414010}
   - {fileID: 1352254603}
   - {fileID: 1474655877}
+  - {fileID: 963717326}
   m_Father: {fileID: 1916393650}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
