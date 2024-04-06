@@ -12,6 +12,11 @@ public class ControlBowl : MonoBehaviour
         {
             Destroy(inter);
         }
-    }
 
+        Lechuga lechuga = other.GetComponent<Lechuga>();
+        if (lechuga != null)
+        {
+            lechuga.DesarmarLechuga();
+        }
+    }
 }
