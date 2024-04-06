@@ -17,6 +17,13 @@ public class ControlBowl : MonoBehaviour
         if (lechuga != null)
         {
             lechuga.DesarmarLechuga();
+            ControlH14.singleton.lechugaEnBowl = true;
+        }
+
+        Alimetos alimetos = other.GetComponent<Alimetos>();
+        if (alimetos != null)
+        {
+            ControlH14.singleton.CambiarAlimento(alimetos.tipo);
         }
     }
 }

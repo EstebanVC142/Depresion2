@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8332814714549923086}
   - component: {fileID: 2685306095923721495}
   - component: {fileID: 2685306095923721492}
+  - component: {fileID: 2816263155018774357}
   m_Layer: 3
   m_Name: Pepino6
   m_TagString: Untagged
@@ -128,6 +129,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enMano: 0
   gameObjectInteractuable: {fileID: 0}
+--- !u!114 &2816263155018774357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382834303123157086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 1
 --- !u!1 &1671278608395429673
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,6 +156,7 @@ GameObject:
   - component: {fileID: 4783768737934760219}
   - component: {fileID: 2685306095225461835}
   - component: {fileID: 2685306095225461832}
+  - component: {fileID: 5820253794301286355}
   m_Layer: 3
   m_Name: Pepino4
   m_TagString: Untagged
@@ -256,6 +271,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enMano: 0
   gameObjectInteractuable: {fileID: 0}
+--- !u!114 &5820253794301286355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671278608395429673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 1
 --- !u!1 &1961880088331116027
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,6 +298,7 @@ GameObject:
   - component: {fileID: 3019935901928549383}
   - component: {fileID: 2685306096414281634}
   - component: {fileID: 2685306096414281635}
+  - component: {fileID: 6703644353051336719}
   m_Layer: 3
   m_Name: Pepino3
   m_TagString: Untagged
@@ -384,6 +413,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enMano: 0
   gameObjectInteractuable: {fileID: 0}
+--- !u!114 &6703644353051336719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961880088331116027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 1
 --- !u!1 &2679799774317217600
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,6 +440,7 @@ GameObject:
   - component: {fileID: 7275138252001374755}
   - component: {fileID: 2685306096212459191}
   - component: {fileID: 2685306096212459188}
+  - component: {fileID: 5830094323584629910}
   m_Layer: 3
   m_Name: Pepino9
   m_TagString: Untagged
@@ -511,6 +554,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enMano: 0
   gameObjectInteractuable: {fileID: 0}
+--- !u!114 &5830094323584629910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2679799774317217600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 1
 --- !u!1 &2991927798193950174
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +581,7 @@ GameObject:
   - component: {fileID: 765834473164473991}
   - component: {fileID: 2685306095206755558}
   - component: {fileID: 2685306095206755552}
+  - component: {fileID: 8096289271944433237}
   m_Layer: 3
   m_Name: Pepino
   m_TagString: Untagged
@@ -754,6 +811,19 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &8096289271944433237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2991927798193950174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 1
 --- !u!1 &3050853392981504598
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,6 +838,7 @@ GameObject:
   - component: {fileID: 6280199261239692327}
   - component: {fileID: 2685306096217425752}
   - component: {fileID: 2685306096217425753}
+  - component: {fileID: 4131169472835143237}
   m_Layer: 3
   m_Name: Pepino1
   m_TagString: Untagged
@@ -882,6 +953,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enMano: 0
   gameObjectInteractuable: {fileID: 0}
+--- !u!114 &4131169472835143237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3050853392981504598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 1
 --- !u!1 &3209456456497667667
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,6 +980,7 @@ GameObject:
   - component: {fileID: 5721214202113459635}
   - component: {fileID: 2685306096193511379}
   - component: {fileID: 2685306096193511376}
+  - component: {fileID: 6600615122886313267}
   m_Layer: 3
   m_Name: Pepino7
   m_TagString: Untagged
@@ -1010,6 +1095,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enMano: 0
   gameObjectInteractuable: {fileID: 0}
+--- !u!114 &6600615122886313267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3209456456497667667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 1
 --- !u!1 &4076514778354263300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1122,7 @@ GameObject:
   - component: {fileID: 4148279553508616522}
   - component: {fileID: 2685306095270021533}
   - component: {fileID: 2685306095270021506}
+  - component: {fileID: 2211259956072162601}
   m_Layer: 3
   m_Name: Pepino8
   m_TagString: Untagged
@@ -1138,6 +1237,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enMano: 0
   gameObjectInteractuable: {fileID: 0}
+--- !u!114 &2211259956072162601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4076514778354263300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 1
 --- !u!1 &6288477949757217706
 GameObject:
   m_ObjectHideFlags: 0
@@ -1152,6 +1264,7 @@ GameObject:
   - component: {fileID: 4736548695933014725}
   - component: {fileID: 2685306096120298710}
   - component: {fileID: 2685306096120298711}
+  - component: {fileID: 5319504066662280394}
   m_Layer: 3
   m_Name: Pepino2
   m_TagString: Untagged
@@ -1266,6 +1379,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enMano: 0
   gameObjectInteractuable: {fileID: 0}
+--- !u!114 &5319504066662280394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6288477949757217706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 1
 --- !u!1 &8876367161806344596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,6 +1406,7 @@ GameObject:
   - component: {fileID: 5773588023874174364}
   - component: {fileID: 2685306096766618409}
   - component: {fileID: 2685306096766618414}
+  - component: {fileID: 4282529763721115803}
   m_Layer: 3
   m_Name: Pepino5
   m_TagString: Untagged
@@ -1394,3 +1521,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enMano: 0
   gameObjectInteractuable: {fileID: 0}
+--- !u!114 &4282529763721115803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8876367161806344596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 1
