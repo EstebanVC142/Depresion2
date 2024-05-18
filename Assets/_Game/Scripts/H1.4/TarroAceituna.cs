@@ -11,13 +11,17 @@ public class TarroAceituna : MonoBehaviour
     public float distanciaActivar;
     public bool activo;
     public GameObject aceituna;
-    private void FixedUpdate()
+
+	private void Start()
+	{
+        StartCoroutine(EsperarInstanciaAceituna());
+	}
+	private void FixedUpdate()
     {
         distanciaAceituna = puntaArrribaAceituna.position.y - puntaAbajoAceituna.position.y;
         if (!activo&&distanciaAceituna<distanciaActivar)
         {
             activo = true;
-            StartCoroutine(EsperarInstanciaAceituna());
         }
         if (activo&&distanciaAceituna>distanciaActivar)
         {
@@ -27,10 +31,13 @@ public class TarroAceituna : MonoBehaviour
     }
     IEnumerator EsperarInstanciaAceituna()
     {
-        yield return new WaitForSeconds(1f);
-        if (activo==true)
-        {
-            Instantiate(aceituna, referenciaHueco.transform.position, referenciaHueco.transform.rotation);
+		while (true)
+		{
+            yield return new WaitForSeconds(0.8f);
+            if (activo == true)
+            {
+                Instantiate(aceituna, referenciaHueco.transform.position, referenciaHueco.transform.rotation);
+            }
         }
     }
 
