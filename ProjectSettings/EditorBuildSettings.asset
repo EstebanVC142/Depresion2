@@ -26,6 +26,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Scenes/Habitacion2.1.unity
     guid: 6867cb97d06bd2140b3624f89a173863
+  - enabled: 1
+    path: Assets/_Game/Scenes/Puerta1.1.unity
+    guid: 656c8f07dcf2dc34abcc02d7883a6af5
+  - enabled: 1
+    path: Assets/_Game/Scenes/Puerta1.2.unity
+    guid: 65d6d38edc9504e4b8406043316325aa
+  - enabled: 1
+    path: Assets/_Game/Scenes/Puerta1.3.unity
+    guid: b78d5f9ae05068a4d86c40b00aceb691
+  - enabled: 1
+    path: Assets/_Game/Scenes/Puerta1.4.unity
+    guid: 49550c9808ece0f458d88bb37a03db5b
+  - enabled: 1
+    path: Assets/_Game/Scenes/Puerta1.5.unity
+    guid: e445f1edc962be74d99bed82fbb88b1e
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1614997c54f81284da6ba44b813a0f41,
       type: 2}
