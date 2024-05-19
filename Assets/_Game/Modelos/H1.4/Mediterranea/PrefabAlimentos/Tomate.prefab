@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1499755431055438575}
   - component: {fileID: 6127760626831244111}
   - component: {fileID: 6127760626831244110}
-  - component: {fileID: 478430152937437751}
+  - component: {fileID: 2627990487263429612}
   m_Layer: 3
   m_Name: Tomate1
   m_TagString: Untagged
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enMano: 0
   gameObjectInteractuable: {fileID: 0}
---- !u!114 &478430152937437751
+--- !u!114 &2627990487263429612
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,6 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tipo: 0
+  posicion: {x: 0, y: 0, z: 0}
+  restaurarPosicion: 0
 --- !u!1 &6470340071261932191
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,6 +158,7 @@ GameObject:
   - component: {fileID: 6127760625314921786}
   - component: {fileID: 6127760625314921789}
   - component: {fileID: 9035186659869067628}
+  - component: {fileID: -4827797862910812290}
   m_Layer: 3
   m_Name: Tomate
   m_TagString: Untagged
@@ -394,5 +398,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c334c645e448f0448fd311eab6ae3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipo: 0
+  posicion: {x: 0, y: 0, z: 0}
+  restaurarPosicion: 1
+--- !u!114 &-4827797862910812290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6470340071261932191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2c182c1b260bb4aae290ec607a4a64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

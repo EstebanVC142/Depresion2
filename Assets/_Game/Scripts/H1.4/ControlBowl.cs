@@ -7,6 +7,21 @@ public class ControlBowl : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
+        Alimetos alimetos = other.GetComponent<Alimetos>();
+        if (alimetos != null)
+        {
+            ControlH14.singleton.CambiarAlimento(alimetos.tipo);
+            if (alimetos.tipo == TipoAlimento.cuchara)
+            {
+                return;
+            }
+            else if (alimetos.tipo == TipoAlimento.tomate && !ControlH14.singleton.tomateCortado)
+            {
+                alimetos.ReiniciarPosicion();
+                return;
+            }
+        }
+
         XRGrabInteractable inter = other.GetComponent<XRGrabInteractable>();
         if (inter != null)
         {
@@ -20,10 +35,9 @@ public class ControlBowl : MonoBehaviour
             ControlH14.singleton.lechugaEnBowl = true;
         }
 
-        Alimetos alimetos = other.GetComponent<Alimetos>();
-        if (alimetos != null)
-        {
-            ControlH14.singleton.CambiarAlimento(alimetos.tipo);
-        }
+        //if (alimetos.tipo == TipoAlimento.pepino)
+        //{
+        //    numPepino++;
+        //}
     }
 }
