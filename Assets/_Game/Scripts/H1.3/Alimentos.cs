@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 using UnityEngine.XR.Interaction.Toolkit;
 public class Alimentos : MonoBehaviour
 {
@@ -26,6 +27,15 @@ public class Alimentos : MonoBehaviour
             enMano = false;
         }
 
+    }
+
+    private IEnumerator Start()
+    {
+        yield return new WaitForSeconds(3);
+        if (transform.position.y < 0.2)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerStay(Collider other)

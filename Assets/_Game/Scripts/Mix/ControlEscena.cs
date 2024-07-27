@@ -20,6 +20,7 @@ public class ControlEscena : MonoBehaviour
             DestroyImmediate(gameObject);
         }
     }
+
     public void GoToScene(string sceneIndex)
     {
         StartCoroutine(GoToSceneRoutine(sceneIndex));
