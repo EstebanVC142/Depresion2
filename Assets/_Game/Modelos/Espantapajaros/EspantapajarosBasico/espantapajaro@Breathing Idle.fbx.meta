@@ -3,7 +3,27 @@ guid: c5d6cbd447107fd4e85603a5870b6e29
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabeza
+    second: {fileID: 2100000, guid: 8d86ff29c756ac24482ba8d7da9101ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuerdas
+    second: {fileID: 2100000, guid: 8dbe5515a75403245bfcdcc1ef30c096, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cuerpo
+    second: {fileID: 2100000, guid: 6913bafbb51d5474f87dd628ba02c17f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paja
+    second: {fileID: 2100000, guid: 151a8fe3329c0d249a560866d16d3995, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
