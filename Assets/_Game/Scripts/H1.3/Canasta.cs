@@ -10,6 +10,9 @@ public class Canasta : MonoBehaviour
     public Text cantidadMalosTexto;
     public Text cantidadBuenosTexto;
     public int cantidadTotales;
+    public List<string> ultraprocesados = new List<string>();
+    public List<string> mediterraneos = new List<string>();
+
     private void Awake()
     {
         canasta = this;
@@ -19,17 +22,18 @@ public class Canasta : MonoBehaviour
         cantidadTotales = 0;
     }
 
-    
-    public void ContadorAlimento(TipoAlimentos tipo)
+    public void ContadorAlimento(TipoAlimentos tipo, string n)
     {
         switch (tipo)
         {
             case TipoAlimentos.ultraprocesado:
                 cantidadMalos++;
                 cantidadMalosTexto.text = cantidadMalos.ToString();
+                ultraprocesados.Add(n);
                 break;
             case TipoAlimentos.mediterraneo:
                 cantidadBuenos++;
+                mediterraneos.Add(n);
                 cantidadBuenosTexto.text = cantidadBuenos.ToString();
                 break;
             default:
