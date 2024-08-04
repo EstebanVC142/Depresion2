@@ -12,6 +12,10 @@ public class Canasta : MonoBehaviour
     public int cantidadTotales;
     public List<string> ultraprocesados = new List<string>();
     public List<string> mediterraneos = new List<string>();
+    public EnlistadorCesta listaBuenos;
+    public EnlistadorCesta listaMalos;
+
+    bool terminado = false;
 
     private void Awake()
     {
@@ -24,6 +28,10 @@ public class Canasta : MonoBehaviour
 
     public void ContadorAlimento(TipoAlimentos tipo, string n)
     {
+        if (terminado)
+        {
+            return;
+        }
         switch (tipo)
         {
             case TipoAlimentos.ultraprocesado:
@@ -38,6 +46,13 @@ public class Canasta : MonoBehaviour
                 break;
             default:
                 break;
+        }
+
+        if (cantidadMalos + cantidadBuenos > 14)
+        {
+            listaBuenos.Inicializar(mediterraneos);
+            listaMalos.Inicializar(ultraprocesados);
+            terminado = true;
         }
 
     }

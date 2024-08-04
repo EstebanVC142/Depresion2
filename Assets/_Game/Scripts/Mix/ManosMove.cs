@@ -18,10 +18,10 @@ public class ManosMove : MonoBehaviour
     void Update()
     {
         float triggerValue = pinchAnimationAction.action.ReadValue<float>();
-        manoAnimador.SetFloat("Trigger", triggerValue);
+        if(manoAnimador != null) manoAnimador.SetFloat("Trigger", triggerValue);
 
         float gripValue = gripAnimationAction.action.ReadValue<float>();
-        manoAnimador.SetFloat("Grip", gripValue);
+        if (manoAnimador != null) manoAnimador.SetFloat("Grip", gripValue);
 
 
     }

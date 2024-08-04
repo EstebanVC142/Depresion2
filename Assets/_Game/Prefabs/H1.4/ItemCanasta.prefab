@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 287600445822195256}
   - component: {fileID: 1409837702544430322}
   - component: {fileID: 6203011286590640394}
+  - component: {fileID: -4430401973694159705}
   m_Layer: 5
   m_Name: ItemCanasta
   m_TagString: Untagged
@@ -77,6 +78,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-4430401973694159705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4915578906536490215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3fefce078913a4da6a6a61c1f16faa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombre: {fileID: 7587251477684644078}
 --- !u!1 &7205996184130418095
 GameObject:
   m_ObjectHideFlags: 0
