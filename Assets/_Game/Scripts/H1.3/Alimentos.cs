@@ -8,6 +8,7 @@ public class Alimentos : MonoBehaviour
     
     public TipoAlimentos alimento;
     public bool enMano;
+    public string nombre = "indefinido";
 
     
     private void OnTriggerEnter(Collider other)
@@ -18,7 +19,7 @@ public class Alimentos : MonoBehaviour
         if (enMano == true && other.CompareTag("Canasta"))
         {
             Debug.Log("DENTRO");
-            Canasta.canasta.ContadorAlimento(alimento);
+            Canasta.canasta.ContadorAlimento(alimento, nombre);
             Destroy(gameObject);
 
         }
@@ -59,6 +60,4 @@ public enum TipoAlimentos
 {
     ultraprocesado = 0,
     mediterraneo = 1,
-
-
 }

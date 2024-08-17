@@ -76,6 +76,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips:
+  - ebf3f71f9e689114b84dc1f1ca5e83fb
   - c5d6cbd447107fd4e85603a5870b6e29
   - eb29f2e360ff19441a9f46e51bb35c39
   importAnimation: 1
@@ -95,22 +96,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: cabeza
       parentName: cuerpo
-      position: {x: 0.00004623249, y: 0.028540423, z: 0.00023180508}
+      position: {x: 0.004623249, y: 2.8540423, z: 0.023180509}
       rotation: {x: -0.027655512, y: 0.0888063, z: 0.32934424, w: 0.93961746}
       scale: {x: 0.99999994, y: 1, z: 0.99999994}
     - name: botas
       parentName: cuerpo
-      position: {x: -0.00012943223, y: 0.0017990073, z: -0.00025549263}
+      position: {x: -0.012943223, y: 0.17990074, z: -0.025549263}
       rotation: {x: -0.19062763, y: 0.60528684, z: 0.06123637, w: 0.7704148}
       scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
     - name: Circle.001
       parentName: espantapajaro(Clone)
-      position: {x: 0.00002882175, y: 0.024408564, z: -0.000858072}
+      position: {x: 0.0028821751, y: 2.4408565, z: -0.085807204}
       rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 0.011064102, y: 0.011064102, z: 0.011064102}
     - name: Circle.002
       parentName: espantapajaro(Clone)
-      position: {x: -0.006635769, y: 0.0176561, z: 0.000078998506}
+      position: {x: -0.6635769, y: 1.7656101, z: 0.007899851}
       rotation: {x: 0.5033322, y: -0.17573614, z: -0.3268519, w: 0.78034693}
       scale: {x: 0.008879874, y: 0.008107246, z: 0.008838107}
     armTwist: 0.5
@@ -120,7 +121,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1

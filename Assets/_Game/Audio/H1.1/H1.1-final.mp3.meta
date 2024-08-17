@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/_Game/Audio/H1.1/y2meta.net_320kbps-wolfgang-amadeus-mozart-allegro-alegria.mp3.meta
+guid: 099db57a612111145967c6b875545a6d
+========
 guid: 0fe73d8a6e4a479418f45ce6eb453b5e
+>>>>>>>> origin/main:Assets/_Game/Audio/H1.1/H1.1-final.mp3.meta
 AudioImporter:
   externalObjects: {}
   serializedVersion: 6

@@ -10,6 +10,8 @@ public class ControlH14 : MonoBehaviour
     public Transform mano;
     public Transform lechuga;
     public bool grabLechuga;
+    public Animator animaciones;
+    public GameObject botonFinal;
     public static ControlH14 singleton;
     [Header("Booleanos")]
     public bool lechugaEnBowl;
@@ -53,6 +55,7 @@ public class ControlH14 : MonoBehaviour
     IEnumerator Instrucciones()
     {
         pasoReceta.clip = audios[0]; // Tomar lechuga
+        InvokeRepeating("ReproOMiedo", 0, 1);
         pasoReceta.Play();
         float t = 0;
         while (t < 0.5)
@@ -118,6 +121,18 @@ public class ControlH14 : MonoBehaviour
 
         pasoReceta.clip = audios[8]; // Revolver bowl
         pasoReceta.Play();
+        yield return new WaitForSeconds(1f);
+        yield return new WaitUntil(() => cucharaEnBowl);
+        pasoReceta.clip = audios[9]; // Revolver bowl
+        pasoReceta.Play();
+        yield return new WaitForSeconds(5f);
+        yield return new WaitUntil(() => !(pasoReceta.isPlaying));
+        botonFinal.SetActive(true);
+    }
+
+    void ReproOMiedo()
+	{
+        animaciones.SetBool("hablando", pasoReceta.isPlaying);
     }
 
     private void Awake()
