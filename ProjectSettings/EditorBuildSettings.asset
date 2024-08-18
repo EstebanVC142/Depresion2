@@ -42,6 +42,8 @@ EditorBuildSettings:
     path: Assets/_Game/Scenes/Puerta1.5.unity
     guid: e445f1edc962be74d99bed82fbb88b1e
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b8d146617908a6444a85f841b9565c54,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1614997c54f81284da6ba44b813a0f41,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1c9101399cc9f454e8792b49a04f1770,
