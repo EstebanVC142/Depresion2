@@ -9,7 +9,43 @@ public class LaMultiplicacionDeLosPanes : MonoBehaviour
     public int densidad;
     private List<Vector3> posiciones = new List<Vector3>();
 
-    Rigidbody[] panes ;
+    public Rigidbody[] panes ;
+    public Vector3[] posicionesFinales;
+
+    private void Start()
+    {
+        StartCoroutine(GuardarPosiciones());
+    }
+
+    public void EliminarCaidos()
+    {
+        for (int i = 0; i < panes.Length; i++)
+        {
+            if (posicionesFinales[i] == Vector3.zero)
+            {
+                if(panes[i] != null)DestroyImmediate(panes[i].gameObject); 
+            }
+
+            else
+            {
+                panes[i].transform.position = posicionesFinales[i];
+            }
+
+        }
+    }
+
+    public IEnumerator GuardarPosiciones()
+    {
+        yield return new WaitForSeconds(5);
+        posicionesFinales = new Vector3 [panes.Length];
+        for (int i = 0; i < panes.Length; i++)
+        {
+            if (panes[i] != null)
+            {
+                posicionesFinales[i] = panes[i].transform.position;
+            }
+        }
+    }
 
     public void CalcularPosciones()
     {
@@ -19,6 +55,11 @@ public class LaMultiplicacionDeLosPanes : MonoBehaviour
             Vector3 v = new Vector3(Random.Range(-escala.x,escala.x), Random.Range(-escala.y, escala.y), Random.Range(-escala.z, escala.z));
             posiciones.Add(v);
         }
+    }
+
+    public void ObtenerHijo()
+    {
+        panes = GetComponentsInChildren<Rigidbody>();
     }
 
     public void Multiplicar()
@@ -45,6 +86,7 @@ public class LaMultiplicacionDeLosPanes : MonoBehaviour
     {
         for (int i = 0; i < pan.Length; i++)
         {
+            if (pan[i] == null) return;
             Gizmos.color = Color.green;
             Gizmos.DrawWireCube(pan[i].transform.position, escala * 2);
             Gizmos.color = new Color(0, 0.7f, 0, 0.5f);
