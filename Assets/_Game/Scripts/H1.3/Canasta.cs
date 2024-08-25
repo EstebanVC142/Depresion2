@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 public class Canasta : MonoBehaviour
 {
     public static Canasta canasta;
@@ -14,6 +15,8 @@ public class Canasta : MonoBehaviour
     public List<string> mediterraneos = new List<string>();
     public EnlistadorCesta listaBuenos;
     public EnlistadorCesta listaMalos;
+    public GameObject ui;
+    public UnityEvent eventosFinal;
 
     bool terminado = false;
 
@@ -53,6 +56,8 @@ public class Canasta : MonoBehaviour
             listaBuenos.Inicializar(mediterraneos);
             listaMalos.Inicializar(ultraprocesados);
             terminado = true;
+            ui.gameObject.SetActive(true);
+            eventosFinal.Invoke();
         }
 
     }
