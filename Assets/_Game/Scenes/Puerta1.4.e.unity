@@ -1128,7 +1128,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 498222212, guid: 9896466db60b92147bfde9292b2569c3, type: 3}
+  m_Sprite: {fileID: -489727828, guid: 9896466db60b92147bfde9292b2569c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2009,7 +2009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventos:
   - fuenteSonido: {fileID: 147704726}
-    clip: {fileID: 8300000, guid: 2f13f806f59ad864cbcadffcebb8fc6a, type: 3}
+    clip: {fileID: 8300000, guid: 1803620adbdc63f45995a6667b6958dc, type: 3}
     animaciones: {fileID: 147704725}
     eventoFinal:
       m_PersistentCalls:

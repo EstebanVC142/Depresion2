@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079c4e93f2de1e042bc294cd9ba076a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: Puerta2.1
+  escena: Habitacion2.1
 --- !u!114 &383312173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2492,7 +2492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079c4e93f2de1e042bc294cd9ba076a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: Puerta2.1
+  escena: Habitacion2.1
 --- !u!114 &1062008706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2909,7 +2909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079c4e93f2de1e042bc294cd9ba076a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: Puerta2.1
+  escena: Habitacion2.1
 --- !u!114 &1277478327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4120,7 +4120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079c4e93f2de1e042bc294cd9ba076a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: Puerta2.1
+  escena: Habitacion2.1
 --- !u!114 &1790412724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4503,7 +4503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079c4e93f2de1e042bc294cd9ba076a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: Puerta2.1
+  escena: Habitacion2.1
 --- !u!114 &1981826777
 MonoBehaviour:
   m_ObjectHideFlags: 0

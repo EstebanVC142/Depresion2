@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.Events;
 
 public class ControlH14 : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class ControlH14 : MonoBehaviour
     public bool aceitunaEnBowl;
     public bool tomateCortado;
     public bool pepinoCortado;
+    public UnityEvent eventoFinal;
 
     public void IniciarReceta()
     {
@@ -128,6 +130,7 @@ public class ControlH14 : MonoBehaviour
         yield return new WaitForSeconds(5f);
         yield return new WaitUntil(() => !(pasoReceta.isPlaying));
         botonFinal.SetActive(true);
+        eventoFinal.Invoke();
     }
 
     void ReproOMiedo()

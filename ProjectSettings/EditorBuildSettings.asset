@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/_Game/Scenes/Habitacion2.1.unity
     guid: 6867cb97d06bd2140b3624f89a173863
   - enabled: 1
+    path: Assets/_Game/Scenes/Lobby2.unity
+    guid: dbc708e6afa6d714ebac1920a8d0336c
+  - enabled: 1
     path: Assets/_Game/Scenes/Puerta1.1.unity
     guid: 656c8f07dcf2dc34abcc02d7883a6af5
   - enabled: 1
