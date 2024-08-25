@@ -2092,12 +2092,12 @@ PrefabInstance:
     - target: {fileID: 5827327262250064887, guid: 40828158f2f8cfd4faf314b54a506895,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.57
+      value: -1.454
       objectReference: {fileID: 0}
     - target: {fileID: 5827327262250064887, guid: 40828158f2f8cfd4faf314b54a506895,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.29
+      value: 0.096
       objectReference: {fileID: 0}
     - target: {fileID: 6592401360930831907, guid: 40828158f2f8cfd4faf314b54a506895,
         type: 3}
@@ -2184,17 +2184,17 @@ PrefabInstance:
     - target: {fileID: 2576864740540168912, guid: ea2154eec60705b438e174bc0ca752c0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.555
+      value: -1.404
       objectReference: {fileID: 0}
     - target: {fileID: 2576864740540168912, guid: ea2154eec60705b438e174bc0ca752c0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.824
+      value: 1.005
       objectReference: {fileID: 0}
     - target: {fileID: 2576864740540168912, guid: ea2154eec60705b438e174bc0ca752c0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.287
+      value: 0.049
       objectReference: {fileID: 0}
     - target: {fileID: 2576864740540168912, guid: ea2154eec60705b438e174bc0ca752c0,
         type: 3}
@@ -2263,7 +2263,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657974086}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d718f8d8917b1a143af7def460ec2169, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: f74af57abb9131945a20973287a47c97, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 289834629}
