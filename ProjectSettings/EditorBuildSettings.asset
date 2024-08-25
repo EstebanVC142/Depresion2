@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/_Game/Scenes/Puerta1.2.unity
     guid: 65d6d38edc9504e4b8406043316325aa
   - enabled: 1
+    path: Assets/_Game/Scenes/Habitacion2.6.unity
+    guid: cb70fb29e0e1d9c4abf29c63d0832782
+  - enabled: 1
     path: Assets/_Game/Scenes/Puerta1.3.unity
     guid: b78d5f9ae05068a4d86c40b00aceb691
   - enabled: 1
@@ -50,6 +53,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Scenes/Puerta1.2.e.unity
     guid: b22f03d8343f65b4c987f4952ee94c8c
+  - enabled: 1
+    path: Assets/_Game/Scenes/Habitacion2.2.unity
+    guid: 314cab1c76c9f7744878437659148519
+  - enabled: 1
+    path: Assets/_Game/Scenes/Habitacion2.4.unity
+    guid: 2f1e5afdeb8e4334dbafdb3fac433024
+  - enabled: 1
+    path: Assets/_Game/Scenes/Habitacion2.3.unity
+    guid: 93e506dd0a8c88d4ba530822bee2ced7
+  - enabled: 1
+    path: Assets/_Game/Scenes/Habitacion2.5.unity
+    guid: 4904629124f75df4692bce2afd46725d
   - enabled: 1
     path: Assets/_Game/Scenes/Puerta1.4.e.unity
     guid: 88e1dda7d04951149aee4f96469700ae
