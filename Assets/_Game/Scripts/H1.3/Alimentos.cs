@@ -21,7 +21,6 @@ public class Alimentos : MonoBehaviour
             Debug.Log("DENTRO");
             Canasta.canasta.ContadorAlimento(alimento, nombre);
             Destroy(gameObject);
-
         }
         else
         {
