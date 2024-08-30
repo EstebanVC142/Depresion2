@@ -2130,7 +2130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventos:
   - fuenteSonido: {fileID: 147704726}
-    clip: {fileID: 8300000, guid: 44ea333cd47fe4c46b14948532ee8a63, type: 3}
+    clip: {fileID: 8300000, guid: 2b00f619e7c425746b3d142c67c6a8e6, type: 3}
     animaciones: {fileID: 147704725}
     eventoFinal:
       m_PersistentCalls:
