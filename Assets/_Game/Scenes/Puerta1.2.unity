@@ -1515,6 +1515,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 627290166}
     m_Modifications:
+    - target: {fileID: 2394465898315259248, guid: f602d6ab17a6b0d4c853dec6a5ad00fe,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.7009056
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394465898315259248, guid: f602d6ab17a6b0d4c853dec6a5ad00fe,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.47928128
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394465898315259248, guid: f602d6ab17a6b0d4c853dec6a5ad00fe,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.17010336
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394465898315259248, guid: f602d6ab17a6b0d4c853dec6a5ad00fe,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.081201866
+      objectReference: {fileID: 0}
     - target: {fileID: 2394465898315259249, guid: f602d6ab17a6b0d4c853dec6a5ad00fe,
         type: 3}
       propertyPath: evento.m_PersistentCalls.m_Calls.Array.size
@@ -1650,9 +1670,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: BotonActivar
       objectReference: {fileID: 0}
+    - target: {fileID: 2394465898315259251, guid: f602d6ab17a6b0d4c853dec6a5ad00fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2394465898315259255, guid: f602d6ab17a6b0d4c853dec6a5ad00fe,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749334415860095744, guid: f602d6ab17a6b0d4c853dec6a5ad00fe,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
