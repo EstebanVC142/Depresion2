@@ -2009,7 +2009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventos:
   - fuenteSonido: {fileID: 147704726}
-    clip: {fileID: 8300000, guid: 2f13f806f59ad864cbcadffcebb8fc6a, type: 3}
+    clip: {fileID: 8300000, guid: 71762c3dd9216c048a31edeb14b97f01, type: 3}
     animaciones: {fileID: 147704725}
     eventoFinal:
       m_PersistentCalls:
