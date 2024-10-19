@@ -10,6 +10,7 @@ TagManager:
   - Alimento
   - Canasta
   - cuchillo
+  - Pastilla
   layers:
   - Default
   - TransparentFX
