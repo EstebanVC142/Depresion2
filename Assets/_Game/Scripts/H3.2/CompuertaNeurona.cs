@@ -9,6 +9,7 @@ public class CompuertaNeurona : MonoBehaviour
     public SkinnedMeshRenderer malla; // Cambia a SkinnedMeshRenderer para usar blend shapes
     float t = 0; // Valor interpolado
     public float velocidadLerp = 5f; // Velocidad de interpolación
+    public Serotonina serotonina;
 
     void Update()
     {
@@ -27,6 +28,7 @@ public class CompuertaNeurona : MonoBehaviour
         if(!bloqueada && !abierta)
 		{
             abierta = true;
+            serotonina.dentro = false;
 		}
     }
 
@@ -44,6 +46,6 @@ public class CompuertaNeurona : MonoBehaviour
 
     public void Absorver()
 	{
-
+        serotonina.dentro = true;
 	}
 }
