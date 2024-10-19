@@ -49,6 +49,10 @@ public class CompuertaNeurona : MonoBehaviour
     public void Bloquear(bool que)
     {
         bloqueada = que;
+		if (que)
+		{
+            Cerrar();
+		}
     }
 
     public void Absorver()
