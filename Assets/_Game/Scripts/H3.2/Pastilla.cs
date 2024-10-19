@@ -7,9 +7,9 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class Pastilla : MonoBehaviour
 {
     // Estado de la pastilla
-    public bool activo = true;
     public float tiempoDestruir = 20f;
     public bool pastilla = false;
+    public CompuertaNeurona compuertaNeurona;
 
     // Referencias a los materiales
     public Material materialActivado;    // Material cuando está activada
@@ -20,11 +20,12 @@ public class Pastilla : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Pastilla") && activo)
+        if (other.CompareTag("Pastilla") && compuertaNeurona.abierta)
         {
             // Unir la pastilla al objeto
             other.transform.parent = this.transform;
             other.transform.localPosition = Vector3.zero;
+            compuertaNeurona.Bloquear(true);
 
             // Destruir ciertos componentes del objeto que entra en el trigger
             Destroy(other.GetComponent<XRGrabInteractable>());
@@ -32,7 +33,7 @@ public class Pastilla : MonoBehaviour
             Destroy(other.gameObject, tiempoDestruir);
 
             // Cambiar el estado de la pastilla
-            activo = false;
+            //activo = false;
             pastilla = true;
 
             // Actualizar el material al activar
@@ -48,6 +49,7 @@ public class Pastilla : MonoBehaviour
     {
         pastilla = false;
         ActualizarMaterial();  // Actualiza el material cuando se desactiva
+        compuertaNeurona.Bloquear(false);
     }
 
     // Método para activar la pastilla
@@ -55,7 +57,7 @@ public class Pastilla : MonoBehaviour
     {
         if (!pastilla)
         {
-            activo = true;
+            compuertaNeurona.abierta = true;
             ActualizarMaterial();  // Actualiza el material cuando se activa
         }
     }
@@ -65,7 +67,7 @@ public class Pastilla : MonoBehaviour
     {
         if (meshRenderer != null)
         {
-            if (activo)
+            if (compuertaNeurona.abierta)
             {
                 // Cambiar al material de activado
                 meshRenderer.material = materialActivado;
