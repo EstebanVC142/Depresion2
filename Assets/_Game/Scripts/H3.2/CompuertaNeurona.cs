@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CompuertaNeurona : MonoBehaviour
 {
+    public bool bloqueada;
     public bool abierta = false; // Control de estado
     public SkinnedMeshRenderer malla; // Cambia a SkinnedMeshRenderer para usar blend shapes
     float t = 0; // Valor interpolado
@@ -20,4 +21,29 @@ public class CompuertaNeurona : MonoBehaviour
             malla.SetBlendShapeWeight(0, t * 100f); // Convertimos t a un rango de 0 a 100 para el BlendShape
         }
     }
+
+    public void Abrir()
+	{
+        if(!bloqueada && !abierta)
+		{
+            abierta = true;
+		}
+    }
+
+    public void Cerrar()
+    {
+        if (abierta)
+        {
+            abierta = false;
+        }
+    }
+    public void Bloquear(bool que)
+    {
+        bloqueada = que;
+    }
+
+    public void Absorver()
+	{
+
+	}
 }
