@@ -2694,6 +2694,75 @@ RectTransform:
   m_AnchoredPosition: {x: 38576.906, y: 1.2378672}
   m_SizeDelta: {x: 106.0416, y: 65.6734}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &534814765
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084478637963089211, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862282661609492353, guid: c1180c291658b8a49b6ba363ee46b682,
+        type: 3}
+      propertyPath: m_Name
+      value: Neurona
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1180c291658b8a49b6ba363ee46b682, type: 3}
 --- !u!1 &729980878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2956,7 +3025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &750669643
 Transform:
   m_ObjectHideFlags: 0
@@ -4080,7 +4149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1479802898
 Transform:
   m_ObjectHideFlags: 0
@@ -5435,7 +5504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2133934704
 Transform:
   m_ObjectHideFlags: 0
