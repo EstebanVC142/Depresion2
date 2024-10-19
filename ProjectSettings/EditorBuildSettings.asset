@@ -42,13 +42,13 @@ EditorBuildSettings:
     path: Assets/_Game/Scenes/Puerta1.3.unity
     guid: b78d5f9ae05068a4d86c40b00aceb691
   - enabled: 1
-    path: Assets/_Game/Scenes/Habitacion 3.1.unity
+    path: Assets/_Game/Scenes/Habitacion3.1.unity
     guid: 3dc65530c2a480a4b92ff9734dec88eb
   - enabled: 1
     path: Assets/_Game/Scenes/Habitacion 3.2.unity
     guid: 2246dd84ddea10348aa7b458bbaafd88
   - enabled: 1
-    path: Assets/_Game/Scenes/Habitacion 3.3.unity
+    path: Assets/_Game/Scenes/Habitacion3.3.unity
     guid: 5d4a772c737b3264b83195ed5f9a93ff
   - enabled: 1
     path: Assets/_Game/Scenes/Puerta1.2.e.unity
