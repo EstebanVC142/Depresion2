@@ -9,7 +9,7 @@ public class CompuertaNeurona : MonoBehaviour
     public SkinnedMeshRenderer malla; // Cambia a SkinnedMeshRenderer para usar blend shapes
     float t = 0; // Valor interpolado
     public float velocidadLerp = 5f; // Velocidad de interpolación
-    public Serotonina serotonina;
+    public Serotonina[] serotoninas;
 
     void Update()
     {
@@ -25,10 +25,17 @@ public class CompuertaNeurona : MonoBehaviour
 
     public void Abrir()
 	{
-        if(!bloqueada && !abierta)
+        if(!bloqueada)
 		{
             abierta = true;
-            serotonina.dentro = false;
+			for (int i = 0; i < serotoninas.Length; i++)
+			{
+				if (serotoninas[i].dentro != false)
+				{
+                    serotoninas[i].dentro = false;
+                    break;
+                }
+			}
 		}
     }
 
@@ -46,6 +53,17 @@ public class CompuertaNeurona : MonoBehaviour
 
     public void Absorver()
 	{
-        serotonina.dentro = true;
-	}
+		if (bloqueada)
+		{
+            return;
+		}
+        for (int i = 0; i < serotoninas.Length; i++)
+        {
+            if (serotoninas[i].dentro == false)
+            {
+                serotoninas[i].dentro = true;
+                break;
+            }
+        }
+    }
 }
