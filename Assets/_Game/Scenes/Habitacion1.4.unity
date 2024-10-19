@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 23eab5b386a36aa459f69edf83d82f42, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9e071d44007ab504bbf67d89bd0170a2, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -23499,6 +23499,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 1860314407}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
 --- !u!114 &1692997939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25088,7 +25100,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f6155f9c1ad66a644b4b54dae0d8d46d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f6155f9c1ad66a644b4b54dae0d8d46d,
         type: 3}
@@ -25132,6 +25144,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.011348706, y: 0.18292123, z: 0.047658473}
   m_Center: {x: 0.00003599572, y: -0.1332245, z: -0.010514666}
+--- !u!1 &1860314407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f6155f9c1ad66a644b4b54dae0d8d46d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1860314404}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1862781243
 GameObject:
   m_ObjectHideFlags: 0
