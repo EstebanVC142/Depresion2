@@ -30,7 +30,7 @@ public class Axon : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(frecuenciaAperturas.x, frecuenciaAperturas.y));
             if (activo)
             {
-                compuertas[Random.Range(0, compuertas.Count)].abierta = true;
+                compuertas[Random.Range(0, compuertas.Count)].Abrir();
             }
         }
     }
