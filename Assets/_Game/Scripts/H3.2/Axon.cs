@@ -9,6 +9,7 @@ public class Axon : MonoBehaviour
     public Transform[] posiciones;
     public List<CompuertaNeurona> compuertas = new List<CompuertaNeurona>();
     public Vector2 frecuenciaAperturas;
+    public Vector2 frecuenciaAbsorcion;
 
     // Start is called before the first frame update
     void Start()
@@ -19,17 +20,30 @@ public class Axon : MonoBehaviour
             compuertas.Add(g.GetComponent<CompuertaNeurona>());
 		}
         StartCoroutine(AbreCompuertas());
+        StartCoroutine(Absorve());
     }
 
     IEnumerator AbreCompuertas()
-	{
-		while (true)
-		{
+    {
+        while (true)
+        {
             yield return new WaitForSeconds(Random.Range(frecuenciaAperturas.x, frecuenciaAperturas.y));
-			if (activo)
-			{
+            if (activo)
+            {
                 compuertas[Random.Range(0, compuertas.Count)].abierta = true;
-			}
+            }
+        }
+    }
+
+    IEnumerator Absorve()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(Random.Range(frecuenciaAperturas.x, frecuenciaAperturas.y));
+            if (activo)
+            {
+                compuertas[Random.Range(0, compuertas.Count)].Absorver();
+            }
         }
     }
 }
