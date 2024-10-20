@@ -15,6 +15,7 @@ public class Pastillero : MonoBehaviour
     private void Awake()
     {
         singleton = this;
+        CrearPastilla();
     }
 
 }
