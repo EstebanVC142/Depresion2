@@ -11,6 +11,7 @@ public class CompuertaNeurona : MonoBehaviour
     public float velocidadLerp = 5f; // Velocidad de interpolación
     public Serotonina[] serotoninas;
     public Pastilla pastilla;
+    public AudioSource audioAbre, audioCierra;
 
     void Update()
     {
@@ -37,6 +38,7 @@ public class CompuertaNeurona : MonoBehaviour
                     break;
                 }
 			}
+            audioAbre.Play();
             pastilla.ActualizarMaterial();
 		}
     }
@@ -46,6 +48,7 @@ public class CompuertaNeurona : MonoBehaviour
         if (abierta)
         {
             abierta = false;
+            audioCierra.Play();
         }
     }
     public void Bloquear(bool que)
