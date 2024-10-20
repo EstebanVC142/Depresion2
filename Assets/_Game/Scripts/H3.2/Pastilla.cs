@@ -7,24 +7,27 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class Pastilla : MonoBehaviour
 {
     // Estado de la pastilla
-    public bool activo = true;
     public float tiempoDestruir = 20f;
     public bool pastilla = false;
+    public CompuertaNeurona compuertaNeurona;
 
     // Referencias a los materiales
     public Material materialActivado;    // Material cuando está activada
     public Material materialDesactivado; // Material cuando está desactivada
 
     // Hacer MeshRenderer público para asignarlo manualmente en el Inspector
-    public MeshRenderer meshRenderer;
+    public SkinnedMeshRenderer meshRenderer;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Pastilla") && activo)
+        if (other.CompareTag("Pastilla") && compuertaNeurona.abierta)
         {
             // Unir la pastilla al objeto
             other.transform.parent = this.transform;
             other.transform.localPosition = Vector3.zero;
+            other.transform.localEulerAngles = Vector3.up * 270;
+            compuertaNeurona.Bloquear(true);
+            Pastillero.singleton.CrearPastilla();
 
             // Destruir ciertos componentes del objeto que entra en el trigger
             Destroy(other.GetComponent<XRGrabInteractable>());
@@ -32,14 +35,14 @@ public class Pastilla : MonoBehaviour
             Destroy(other.gameObject, tiempoDestruir);
 
             // Cambiar el estado de la pastilla
-            activo = false;
+            //activo = false;
             pastilla = true;
 
             // Actualizar el material al activar
             ActualizarMaterial();
 
             // Programar la desactivación después de 'tiempoDestruir'
-            Invoke("DesactivarPastilla", tiempoDestruir);
+            Invoke("DesactivarPastilla", tiempoDestruir - 0.5f);
         }
     }
 
@@ -48,6 +51,7 @@ public class Pastilla : MonoBehaviour
     {
         pastilla = false;
         ActualizarMaterial();  // Actualiza el material cuando se desactiva
+        compuertaNeurona.Bloquear(false);
     }
 
     // Método para activar la pastilla
@@ -55,17 +59,17 @@ public class Pastilla : MonoBehaviour
     {
         if (!pastilla)
         {
-            activo = true;
+            compuertaNeurona.abierta = true;
             ActualizarMaterial();  // Actualiza el material cuando se activa
         }
     }
 
     // Método para actualizar el material basado en el estado de la pastilla
-    void ActualizarMaterial()
+    public void ActualizarMaterial()
     {
         if (meshRenderer != null)
         {
-            if (activo)
+            if (compuertaNeurona.abierta)
             {
                 // Cambiar al material de activado
                 meshRenderer.material = materialActivado;

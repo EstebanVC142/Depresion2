@@ -202,7 +202,8 @@ MonoBehaviour:
   - {fileID: 6763522166998457968}
   - {fileID: 7454071893718485170}
   compuertas: []
-  frecuenciaAperturas: {x: 1, y: 3}
+  frecuenciaAperturas: {x: 3, y: 5}
+  frecuenciaAbsorcion: {x: 1, y: 3}
 --- !u!1 &1991851557899064864
 GameObject:
   m_ObjectHideFlags: 0

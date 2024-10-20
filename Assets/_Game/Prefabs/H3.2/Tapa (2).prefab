@@ -73,6 +73,8 @@ GameObject:
   - component: {fileID: 4314318209037271573}
   - component: {fileID: 4314318209037271575}
   - component: {fileID: 4314318209037271572}
+  - component: {fileID: -7514315723027546659}
+  - component: {fileID: 7164120158248321375}
   m_Layer: 0
   m_Name: Tapa (2)
   m_TagString: Untagged
@@ -173,6 +175,38 @@ MonoBehaviour:
   - {fileID: 1473151222}
   - {fileID: 9097925710743522009}
   - {fileID: 6923265802685870895}
+  pastilla: {fileID: -7514315723027546659}
+--- !u!114 &-7514315723027546659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314318209037271570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49b44cce231a2244af8a174403c4ea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoDestruir: 20
+  pastilla: 0
+  compuertaNeurona: {fileID: 4314318209037271572}
+  materialActivado: {fileID: 2100000, guid: 61e5a8e4616e6da49aa688c3fc42ffca, type: 2}
+  materialDesactivado: {fileID: 2100000, guid: b75f1f10007727443b3690e6fa090a77, type: 2}
+  meshRenderer: {fileID: 4314318209037271575}
+--- !u!135 &7164120158248321375
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314318209037271570}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0015407691
+  m_Center: {x: -0.00000031857053, y: 0.0000033816468, z: 0.000000009080395}
 --- !u!1001 &2440956546398655047
 PrefabInstance:
   m_ObjectHideFlags: 0
