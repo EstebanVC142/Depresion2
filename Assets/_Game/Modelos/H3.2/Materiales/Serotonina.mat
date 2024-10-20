@@ -53,6 +53,6 @@ Material:
     - _tamaRuido: 48.26
     - _velocidad: 1
     m_Colors:
-    - _ColorGenera: {r: 1, g: 0.9822673, b: 0, a: 0}
-    - _colorLinea: {r: 0.589, g: 1, b: 0.0509433, a: 0}
+    - _ColorGenera: {r: 0, g: 0.9400208, b: 1, a: 0}
+    - _colorLinea: {r: 0.05098039, g: 0.14938709, b: 1, a: 0}
   m_BuildTextureStacks: []

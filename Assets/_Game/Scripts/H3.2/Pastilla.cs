@@ -25,7 +25,9 @@ public class Pastilla : MonoBehaviour
             // Unir la pastilla al objeto
             other.transform.parent = this.transform;
             other.transform.localPosition = Vector3.zero;
+            other.transform.localEulerAngles = Vector3.up * 270;
             compuertaNeurona.Bloquear(true);
+            Pastillero.singleton.CrearPastilla();
 
             // Destruir ciertos componentes del objeto que entra en el trigger
             Destroy(other.GetComponent<XRGrabInteractable>());
@@ -40,7 +42,7 @@ public class Pastilla : MonoBehaviour
             ActualizarMaterial();
 
             // Programar la desactivación después de 'tiempoDestruir'
-            Invoke("DesactivarPastilla", tiempoDestruir);
+            Invoke("DesactivarPastilla", tiempoDestruir - 0.5f);
         }
     }
 
