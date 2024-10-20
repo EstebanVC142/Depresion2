@@ -185,7 +185,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97634327}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.73, y: 0, z: 0.01}
+  m_LocalPosition: {x: -0.52, y: 0, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3216,13 +3216,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: BotonCambioEscena
       objectReference: {fileID: 0}
-    - target: {fileID: 2576864740540168914, guid: ea2154eec60705b438e174bc0ca752c0,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 213928508861065135, guid: ea2154eec60705b438e174bc0ca752c0, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea2154eec60705b438e174bc0ca752c0, type: 3}
 --- !u!4 &1291163824 stripped
 Transform:
