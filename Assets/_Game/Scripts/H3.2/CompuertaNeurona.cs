@@ -10,6 +10,7 @@ public class CompuertaNeurona : MonoBehaviour
     float t = 0; // Valor interpolado
     public float velocidadLerp = 5f; // Velocidad de interpolación
     public Serotonina[] serotoninas;
+    public Pastilla pastilla;
 
     void Update()
     {
@@ -36,6 +37,7 @@ public class CompuertaNeurona : MonoBehaviour
                     break;
                 }
 			}
+            pastilla.ActualizarMaterial();
 		}
     }
 

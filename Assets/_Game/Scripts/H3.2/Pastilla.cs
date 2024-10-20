@@ -16,7 +16,7 @@ public class Pastilla : MonoBehaviour
     public Material materialDesactivado; // Material cuando está desactivada
 
     // Hacer MeshRenderer público para asignarlo manualmente en el Inspector
-    public MeshRenderer meshRenderer;
+    public SkinnedMeshRenderer meshRenderer;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -63,7 +63,7 @@ public class Pastilla : MonoBehaviour
     }
 
     // Método para actualizar el material basado en el estado de la pastilla
-    void ActualizarMaterial()
+    public void ActualizarMaterial()
     {
         if (meshRenderer != null)
         {
