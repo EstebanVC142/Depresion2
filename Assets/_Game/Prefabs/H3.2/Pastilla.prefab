@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2215134575018958098}
   - component: {fileID: 2215134575018958093}
-  - component: {fileID: 2215134575018958099}
   - component: {fileID: 2215134575018958095}
   - component: {fileID: 2215134575018958088}
+  - component: {fileID: 6021992050082042146}
   m_Layer: 0
   m_Name: Pastilla
   m_TagString: Pastilla
@@ -44,19 +44,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2215134575018958097}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &2215134575018958099
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2215134575018958097}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.3318529, y: 0.20742892, z: 0.32237518}
-  m_Center: {x: -0.006442554, y: 0.04742145, z: 0.042203624}
 --- !u!54 &2215134575018958095
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -237,6 +224,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!136 &6021992050082042146
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215134575018958097}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 0.83223796
+  m_Direction: 0
+  m_Center: {x: 0.006822943, y: 0, z: 0}
 --- !u!1001 &2215134574977712854
 PrefabInstance:
   m_ObjectHideFlags: 0
