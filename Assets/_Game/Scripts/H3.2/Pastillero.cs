@@ -16,6 +16,8 @@ public class Pastillero : MonoBehaviour
     {
         singleton = this;
         CrearPastilla();
+        CrearPastilla();
+        CrearPastilla();
     }
 
 }
