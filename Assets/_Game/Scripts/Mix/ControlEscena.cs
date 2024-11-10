@@ -31,10 +31,6 @@ public class ControlEscena : MonoBehaviour
         transicion.FadeOut();
         yield return new WaitForSeconds(transicion.fadeDuration);
         SceneManager.LoadScene(sceneIndex);
-        
-        
-        
-
     }
     
 }

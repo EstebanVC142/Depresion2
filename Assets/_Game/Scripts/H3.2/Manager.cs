@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class Manager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float tiempoEscena = 150f;
+
+    IEnumerator TiempoEjecucion()
     {
-        
+        yield return new WaitForSeconds(tiempoEscena);
+        ControlEscena.singleton.GoToScene("Lobby3");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void IniciarTiempo()
     {
-        
+        StartCoroutine(TiempoEjecucion());
     }
 }
