@@ -1828,7 +1828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079c4e93f2de1e042bc294cd9ba076a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: Lobby2
+  escena: Lobby3
 --- !u!114 &764340845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1868,7 +1868,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 764340846}
   m_OnClick:
     m_PersistentCalls:
